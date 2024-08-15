@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgbatikbaru"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center" >
+                        <TextView
+                            android:fontFamily="@font/sfprodisplaybold"
+                            android:text="Risk Monitoring\nBalai Penilaian Kompetensi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="1dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="25sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center" >
+
+                        <ImageView
+                            android:id="@+id/fotodiklat"
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/index2"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center" >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/sfprodisplaymedium"
+                            android:text="Selamat Datang"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:id="@+id/tvJustified"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="15dp"
+                            android:justificationMode="inter_word"
+                            android:fontFamily="@font/sfprodisplaymedium"
+                            android:text="Media BPSDM Continuous Monitoring on Risk Controlling (CMRC) BPSDM ini bertujuan untuk :
+                            \n\n-Pembagian tugas komitmen Pengendalian Risiko (Risk Controlling) kepada setiap pegawai guna mendukung penerapan Enterprise Risk Management (ERM);
+                            \n\n-Reminder/pengingat komitmen dalam pelaksanaan Pengendalian Risiko melalui aktivitas pengisian formulir Instrumen Pengendalian;dan
+                        \n\n-Evaluasi efektifitas aktivitas Pengendalian Risiko guna perbaikan Sistem Manajemen Risiko."
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center" >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/sfprodisplaymedium"
+                            android:text="BALAI PENILAIAN KOMPETENSI :"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="1dp"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:id="@+id/tvJustified"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginRight="15dp"
+                            android:justificationMode="inter_word"
+                            android:fontFamily="@font/sfprodisplaymedium"
+                            android:text="\nAdalah UPT di Bawah Pusat Pengembangan Talenta – BPSDM PUPR.
+                            \n\nTugas :\nMelaksanakan penilaian potensi dan kompetensi meliputi seleksi, pemetaan, penempatan dan pengelolaan kerjasama untuk ASN.
+                        \n\nFungsi:\n1.Penyusunan rencana, program, dan anggaran penilaian potensi dan kompetensi;
+                                   \n2.Pelaksanaan penilaian potensi dan kompetensi untuk kebutuhan pengadaan, seleksi, pemetaan, dan penempatan sumber daya manusia;
+                                   \n3.Pelaksanaan pengelolaan kerja sama penilaian potensi dan kompetensi;
+                                   \n4.Pelaksanaan pemantauan, evaluasi, dan pelaporan penilaian potensi dan kompetensi;
+                                   \n5.Pelaksanaan pengelolaan data dan informasi hasil penilaian potensi dan kompetensi;
+                                   \n6.Pelaksanaan umpan balik hasil penilaian potensi dan kompetensi;
+                                   \n7.Pengelolaan sarana dan prasarana balai; dan
+                                   \n8.Pelaksanaan urusan tata usaha dan rumah tangga balai. \n"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center" >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="0dp"
+                            android:fontFamily="@font/sfprodisplaymedium"
+                            android:text=" Balai Penilaian Kompetensi"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center" >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="0dp"
+                            android:fontFamily="@font/sfprodisplaymedium"
+                            android:text="BPSDM"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp">
+                        <ImageView
+                            android:id="@+id/bpsdmlogo"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/maps"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center" >
+                        <TextView
+                            android:autoLink="all"
+                            android:fontFamily="@font/sfprodisplaymedium"
+                            android:text="Lihat Lokasi Klik Link di Bawah: \n https://maps.app.goo.gl/pgwzaGU87BtHQWes6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="16sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="center" >
+                        <TextView android:id="@+id/tvheader1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/sfprodisplaymedium"
+                            android:text="Kementerian PUPR, Jl. Sapta Taruna Raya\nKomp. PU Pasar Jumat, RT.4/RW.7\nPd. Pinang, Kec. Kby. Lama, Kota Jakarta Selatan\nDaerah Khusus Ibukota Jakarta 12310\nContact: 0813 1472 1476 (Refi)"
+                            android:gravity="center"
+                            android:textSize="17sp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

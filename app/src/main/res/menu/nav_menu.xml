@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Beranda"/>
+          <item
+        android:id="@+id/nav_menu1"
+        android:icon="@drawable/ic_daftartemuan"
+        android:title="Risiko SEMEN PUPR "/>
+        <item
+            android:id="@+id/nav_menu2"
+            android:icon="@drawable/ic_peserta"
+            android:title="Peserta Asesmen"/>
+        <item
+            android:id="@+id/nav_menu3"
+            android:icon="@drawable/ic_modul"
+            android:title="Kepegawaian"/>
+        <item
+            android:id="@+id/nav_menu4"
+            android:icon="@drawable/ic_aset"
+            android:title="Aset/BMN"/>
+        <item
+            android:id="@+id/nav_menu5"
+            android:icon="@drawable/ic_perjadin"
+            android:title="Perjadin"/>
+        <item
+            android:id="@+id/nav_menu6"
+            android:icon="@drawable/ic_uang"
+            android:title="Capaian Keuangan &amp; Fisik"/>
+    </group>
+
+</menu>
